@@ -34,8 +34,7 @@ TARGET_BOARD_INFO_FILE ?= device/htc/evita/board-info.txt
 TARGET_BOOTLOADER_BOARD_NAME := evita
 
 # Kernel
-TARGET_KERNEL_CONFIG := candy_elite_defconfig
-TARGET_KERNEL_CUSTOM_TOOLCHAIN := linaro-4.8-a15/bin/arm-gnueabi-
+TARGET_KERNEL_CONFIG := elite_defconfig
 
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/htc/evita/bluetooth
