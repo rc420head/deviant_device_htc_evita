@@ -6,14 +6,14 @@ TARGET_SCREEN_HEIGHT := 1280
 TARGET_SCREEN_WIDTH := 720
 
 # Inherit some common CM stuff.
-$(call inherit-product, vendor/candykat/config/common_full_phone.mk)
+$(call inherit-product, vendor/deviant/config/common_full_phone.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/htc/evita/device_evita.mk)
 
 # Device naming
 PRODUCT_DEVICE := evita
-PRODUCT_NAME := candykat_evita
+PRODUCT_NAME := deviant_evita
 PRODUCT_BRAND := htc
 PRODUCT_MODEL := One X
 PRODUCT_MANUFACTURER := HTC
